@@ -1,0 +1,59 @@
+.weather_output {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 420px;
+  margin: 50px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+  color: #0c0b0b;
+  backdrop-filter: blur(3px);
+}
+
+.weather_output:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+}
+
+.weather_output h4 {
+  font-weight: 700;
+  font-size: larger;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #4e4376;
+}
+
+.weather_output h5 {
+  font-weight: 600;
+  color: #101010;
+}
+
+.weather_output img {
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4));
+}
+
+.pretext {
+  color: white;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(to left, #3a7bd5, #00d2ff);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.pretext:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+}

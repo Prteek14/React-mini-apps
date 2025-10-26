@@ -1,0 +1,32 @@
+.mydiv {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 18rem;
+    margin-top: 1rem;
+}
+
+.mydiv:hover {
+    border: 2px solid rgb(120, 2, 255);
+    box-shadow: 0 0 55px rgb(120, 2, 255);
+    transform: scale(1.02);
+}
+
+.img{
+    height: 180px;
+}
+
+@media (max-width: 695px) {
+    .mydiv{
+        width: 9rem;
+        height: 12rem;
+        font-size: x-small;
+        /* object-fit:fill; */
+    }
+    img{
+        height: 70px;
+    }
+
+    .cardText {
+    display: none; /* description hide on mobile */
+  }
+
+}

@@ -1,0 +1,14 @@
+.midcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding-top: 1rem;
+}
+
+/* Jab screen 768px se badi ho (tablet/desktop) tab 2 columns */
+@media (min-width: 768px) {
+  .midcontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}

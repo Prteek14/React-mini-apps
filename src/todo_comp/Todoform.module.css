@@ -1,0 +1,19 @@
+.btngrad {
+  background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
+  padding: 10px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+
+.btngrad:hover {
+  background-position: right center; /* moves gradient */
+  color: #fff;
+  text-decoration: none;
+}

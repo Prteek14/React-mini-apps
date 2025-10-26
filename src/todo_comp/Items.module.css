@@ -1,0 +1,42 @@
+.wrapText {
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* .btngrad {
+  background-image: linear-gradient(
+    to right,
+    #000428 0%,
+    #004e92 51%,
+    #000428 100%
+  );
+} */
+.btngrad {
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  border-radius: 10px;
+  display: block;
+}
+
+.btngrad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.editbtn {
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  background-size: 200% auto;
+  border-radius: 10px;
+  display: block;
+}

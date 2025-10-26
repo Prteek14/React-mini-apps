@@ -1,0 +1,5 @@
+.linknostyle {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer; /* optional, pointer dikhane ke liye */
+}

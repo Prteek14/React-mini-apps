@@ -1,0 +1,23 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer img {
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+  .logoContainer img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.homeBtn{
+  background-color: #d80d62;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clacpage {
+  background-image: url(/clacbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps it steady while scrolling */
+  background-position: center;
+  width: 100%;
+  min-height: 100vh; /* full viewport height */
+}
+
+.appname {
+  display: flex;               /* so it stays inline-flex */
+  justify-self: center;
+  align-items: center;
+  transition: transform 0.4s ease, text-shadow 0.2s ease;
+  transform-origin: center;    /* zoom from center */
+  padding-top: 4rem;
+  color: rgb(242, 247, 255);
+}
+
+.appname:hover {
+  transform: scale(1.1);
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+
+
+.userform{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgb(106, 154, 238);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border: 3px solid rgb(253, 228, 228);
+}
+
+
+
+@media (max-width: 480px) {
+
+  .userform{
+    margin-top: 3rem;
+  }
+}

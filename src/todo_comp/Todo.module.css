@@ -1,0 +1,24 @@
+.todoapp {
+  background-image: url(/todoback.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps it steady while scrolling */
+  background-position: center;
+  width: 100%;
+  min-height: 100vh; /* full viewport height */
+}
+
+.appname {
+  display: flex;               /* so it stays inline-flex */
+  justify-self: center;
+  align-items: center;
+  transition: transform 0.3s ease, text-shadow 0.4s ease;
+  transform-origin: center;    /* zoom from center */
+}
+
+/* ✨ Hover effect */
+.appname:hover {
+  transform: scale(1.1); /* smooth zoom */
+  text-shadow: 0 0 20px #ba0157, 0 0 40px #190A05, 0 0 60px #ba0157;
+}
+
