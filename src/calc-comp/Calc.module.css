@@ -4,11 +4,8 @@
     box-sizing: border-box;
 }
 .clacpage {
-  background-image: url(/clacbg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* keeps it steady while scrolling */
-  background-position: center;
+  background: #000;
+  background: linear-gradient(85deg, rgba(0, 0, 0, 1) 0%, rgba(85, 85, 85, 1) 51%, rgba(0, 0, 0, 1) 100%);;
   width: 100%;
   min-height: 100vh; /* full viewport height */
 }
