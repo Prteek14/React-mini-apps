@@ -41,21 +41,6 @@ Check out the live projects on Netlify: [React Mini Site](https://react-mini-sit
 - **API:** OpenWeatherMap
 - **Deployment:** Netlify
 
----
-
-## Vite + React Setup
-
-This project uses Vite for a minimal, fast React setup with Hot Module Replacement (HMR). ESLint is configured for code quality.
-
-Currently, two official React plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-> The React Compiler is not enabled on this template. To add it, see [React Compiler Installation](https://react.dev/learn/react-compiler/installation).
-
-For production apps, consider using **TypeScript** with type-aware lint rules. See the [Vite React TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for guidance.
-
 
 ---
 
