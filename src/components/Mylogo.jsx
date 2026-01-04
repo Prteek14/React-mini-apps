@@ -1,10 +1,10 @@
 function Mylogo({ className }) {
   return (
     <img
-      src="React mini apps.png"
+      src="React_mini_apps.png"
       alt="MY_LOGO"
       className={className}
-      style={{ width: "60px", height: "60px" ,  }}
+      style={{ width: "60px", height: "60px" }}
     />
   );
 }
